@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+.main{
+    background-image: url(./images/adorable-3344414_1920.jpg);
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.header{
+    display: flex;
+    /* background-color: rgb(106, 236, 106) ; */
+    background-color: rgb(54, 212, 54) ;
+    padding: 10px;
+}
+.logo{
+    margin-left: 30px;
+    height: 50px;
+    width: 65px;
+    background-image: url(/images/logo2.png);
+    background-size: cover;
+
+}
+.txt{
+    font-family: 'Dancing script', cursive;
+    color: white;
+    margin-top: 2px;
+    margin-left: 7px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.navBar ul{
+    list-style-type: none;
+    margin-left: 950px;
+    
+}
+.navBar ul li{
+    color: white;
+    float: left;
+    padding-top: 10px;
+    padding-right: 15px;
+    font-size:18px;
+    margin-top: 7px;
+    font-family: century gothic;
+    /* border: 1px solid black; */
+}
+.navBar ul li:hover{
+    font-size: 24px;
+}
+.navBar2{
+    width: 580px;
+    height: 60px;
+    background-color: rgb(82, 117, 223);
+    margin-left: 510px;
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 0px 0px 25px 25px;
+}
+.navBar2 ul{
+    list-style-type: none;
+    
+}
+.navBar2 ul li{
+    color: white;
+    float: left;
+    padding-top: 10px;
+    padding-right: 15px;
+    font-size: 18px;
+    margin-top: 7px;
+    font-family: century gothic;
+    /* border: 1px solid black; */
+}
+.navBar2 ul li:hover{
+    font-size: 24px;
+}
+
+ .clr{
+     height: 91%;
+     width: 100%;
+    background-color: rgba(80, 80, 100,.5);
+} 
+.content{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    display: flex;
+    background-size: cover;
+    }
+/* .image1{
+    box-shadow: 7px 3px lightgray;
+}
+.innerImg1{
+    height:100%;
+    width: 100%;
+    bottom: -100%;
+    height : 100%;
+    width : 100%;
+    background:white;
+    opacity:0;
+    height:0;
+    
+}
+.image2{
+    box-shadow: 7px 3px lightgray;
+}
+.image3{
+    box-shadow: 7px 3px lightgray;
+}
+.image4{
+    box-shadow: 7px 3px lightgray;
+}
+.image1{
+    background-image: url(/images/image.jpg);
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    margin-left: 40px;
+    
+}
+.image2{
+    background-image: url(/images/image.jpg);
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    margin-left: 20px;
+}
+.image3{
+    background-image: url(/images/image.jpg);
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    margin-left: 20px;
+}
+.image4{
+    background-image: url(/images/image.jpg);
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    margin-left: 20px;
+}
+.image1:hover > .innerImg1{
+    display: block;
+    top: 0;
+    -webkit-transition: all 1s, -webkit-transform 1s;
+    transition: all 1s, transform 1s;
+    width:100%;
+    height:100%;
+    opacity:1;
+}
+.image2:hover > .innerImg1{
+    display: block;
+    top: 0;
+    -webkit-transition: all 1s, -webkit-transform 1s;
+    transition: all 1s, transform 1s;
+    width:100%;
+    height:100%;
+    opacity:1;
+}
+.image3:hover > .innerImg1{
+    display: block;
+    top: 0;
+    -webkit-transition: all 1s, -webkit-transform 1s;
+    transition: all 1s, transform 1s;
+    width:100%;
+    height:100%;
+    opacity:1;
+}
+.image4:hover > .innerImg1{
+    display: block;
+    top: 0;
+    -webkit-transition: all 1s, -webkit-transform 1s;
+    transition: all 1s, transform 1s;
+    width:100%;
+    height:100%;
+    opacity:1;
+}
+.info{
+    padding-top: 50px;
+    font-size: 17px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+.heading{
+    margin-left: 510px;
+    font-family: century gothic;
+}
+.petAdoption{
+    padding-top: 20px;
+    text-shadow: 1px 1px lightslategrey;
+}
+button{
+    border-radius: 10px;
+    width: 150px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: white;
+    background-color:  rgb(54, 212, 54) ;
+}
